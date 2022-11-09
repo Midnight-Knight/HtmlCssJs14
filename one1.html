@@ -35,41 +35,41 @@
         <div>
             <h4>Конвертер Валют</h4>
             <div>
-                <input type="number" value="0">
-                <select>
-                    <option>
+                <input type="number" id="number-1" value="0" onchange="convert(1)">
+                <select id="select-1" onchange="convert(1)">
+                    <option value="RUB">
                         RUB: Российский рубль
                     </option>
-                    <option>
+                    <option value="USD">
                         USD: Доллар США
                     </option>
-                    <option>
+                    <option value="EUR">
                         EUR: Евро
                     </option>
-                    <option>
+                    <option value="TRY">
                         TRY: Турецкая лира
                     </option>
-                    <option>
+                    <option value="CNY">
                         CNY: Китайский юань
                     </option>
                 </select>
             </div>
             <div>
-                <input type="number" value="0">
-                <select>
-                    <option>
+                <input type="number" id="number-2" type="number" value="0" onchange="convert(2)">
+                <select id="select-2" onchange="convert(2)">
+                    <option value="RUB">
                         RUB: Российский рубль
                     </option>
-                    <option>
+                    <option selected="selected" value="USD">
                         USD: Доллар США
                     </option>
-                    <option>
+                    <option value="EUR">
                         EUR: Евро
                     </option>
-                    <option>
+                    <option value="TRY">
                         TRY: Турецкая лира
                     </option>
-                    <option>
+                    <option value="CNY">
                         CNY: Китайский юань
                     </option>
                 </select>

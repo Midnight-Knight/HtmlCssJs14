@@ -217,3 +217,31 @@ section
     color: white;
     border: 0 solid rgba(0,0,0,0);
 }
+
+/* section-1 */
+
+#section-1 > div
+{
+    width: 80vmin;
+    height: 25vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200,200,200);
+    border-radius: 1vmin;
+}
+
+#section-1 input, #section-1 select, #section-1 h4
+{
+    margin: 1vmin;
+    border-radius: 1vmin;
+    height: 5vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
+
+#section-1 input, #section-1 select
+{
+    width: 31vmin;
+}
